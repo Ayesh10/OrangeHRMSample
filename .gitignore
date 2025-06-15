@@ -1,0 +1,42 @@
+# === Maven ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.swp
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+
+# === IntelliJ ===
+.idea/
+*.iml
+out/
+
+# === Test Output / Reports ===
+/test-output/
+/extent-reports/
+screenshots/
+
+# === Environment Files ===
+.env
+secrets.json
+
+# === Logs ===
+logs/
+*.log
